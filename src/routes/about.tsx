@@ -1,20 +1,19 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CheckCircle2 } from "lucide-react";
-import consultationRoomAsset from "@/assets/consultation_room.png.asset.json";
-import operationTheatreAsset from "@/assets/operation_theatre.png.asset.json";
-import hospitalFacadeAsset from "@/assets/haripriyaa_facecade.webp.asset.json";
-import opticalCounterAsset from "@/assets/spectacle_counter.png.asset.json";
-import doctorImageAsset from "@/assets/doctor-seated-portrait.jpg.asset.json";
-const doctorImage = doctorImageAsset.url;
+import consultationRoomAsset from "@/assets/consultation_room.png";
+import operationTheatreAsset from "@/assets/operation_theatre.png";
+import hospitalFacadeAsset from "@/assets/haripriyaa_facecade.webp";
+import opticalCounterAsset from "@/assets/spectacle_counter.png";
+import doctorImage from "@/assets/doctor-seated-portrait.jpg";
 import clinicImage from "@/assets/clinic-gallery.jpg";
 import { PageHero } from "@/components/page-hero";
 import { useLang } from "@/lib/i18n";
 
 const clinicSpaces = [
-  { name: "Consultation room", image: consultationRoomAsset.url },
-  { name: "Operation theatre", image: operationTheatreAsset.url },
-  { name: "Hospital facade", image: hospitalFacadeAsset.url },
-  { name: "Optical display counter", image: opticalCounterAsset.url },
+  { name: "Consultation room", image: consultationRoomAsset },
+  { name: "Operation theatre", image: operationTheatreAsset },
+  { name: "Hospital facade", image: hospitalFacadeAsset },
+  { name: "Optical display counter", image: opticalCounterAsset },
 ];
 
 export const Route = createFileRoute("/about")({ head: () => ({ meta: [
