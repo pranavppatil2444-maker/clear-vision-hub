@@ -2,10 +2,8 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, ArrowUpRight, BadgeCheck, Check, MessageCircle, ShieldCheck, Sparkles, Star } from "lucide-react";
 import { useState } from "react";
 import { useLang } from "@/lib/i18n";
-import heroImageAsset from "@/assets/doctor-consultation.png.asset.json";
-import doctorImageAsset from "@/assets/doctor-seated-portrait.jpg.asset.json";
-const heroImage = heroImageAsset.url;
-const doctorImage = doctorImageAsset.url;
+import heroImage from "@/assets/doctor-consultation.png";
+import doctorImage from "@/assets/doctor-seated-portrait.jpg";
 import clinicImage from "@/assets/clinic-gallery.jpg";
 import technologyImage from "@/assets/technology-phaco.jpg";
 
