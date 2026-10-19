@@ -1,9 +1,9 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CheckCircle2 } from "lucide-react";
-import consultationRoomAsset from "@/assets/consultation_room.png";
-import operationTheatreAsset from "@/assets/operation_theatre.png";
-import hospitalFacadeAsset from "@/assets/haripriyaa_facecade.webp";
-import opticalCounterAsset from "@/assets/spectacle_counter.png";
+import consultationRoomAsset from "@/assets/consultation_room.jpg";
+import operationTheatreAsset from "@/assets/operation_theatre.jpg";
+import hospitalFacadeAsset from "@/assets/haripriyaa_facecade.jpg";
+import opticalCounterAsset from "@/assets/spectacle_counter.jpg";
 import doctorImage from "@/assets/doctor-seated-portrait.jpg";
 import clinicImage from "@/assets/clinic-gallery.jpg";
 import { PageHero } from "@/components/page-hero";
