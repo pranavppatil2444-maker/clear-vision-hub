@@ -2,7 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowLeft, ArrowRight, ArrowUpRight, BadgeCheck, Check, MessageCircle, ShieldCheck, Sparkles, Star } from "lucide-react";
 import { useState } from "react";
 import { useLang } from "@/lib/i18n";
-import heroImage from "@/assets/doctor-consultation.png";
+import heroImage from "@/assets/doctor-consultation.jpg";
 import doctorImage from "@/assets/doctor-seated-portrait.jpg";
 import clinicImage from "@/assets/clinic-gallery.jpg";
 import technologyImage from "@/assets/technology-phaco.jpg";
@@ -30,7 +30,6 @@ const treatments = [
   { n: "09", title: "Treatment and lenses for every age group", mr: "सर्व वयोगटांसाठी उपचार व विविध प्रकारच्या लेन्स", text: "Eye-care options and suitable lens choices are available for patients of every age group.", image: clinicImage },
   { n: "10", title: "Ayurvedic eye therapies", mr: "आयुर्वेदिक नेत्रचिकित्सा", text: "Tarpana, Shirodhara and other Ayurvedic therapies are offered after an appropriate eye assessment.", image: technologyImage },
 ];
-
 
 const reviews = [
   ["Meera Patil", "Islampur", "The cataract procedure was comfortable and the team explained every step. My vision was brighter the very next morning."],
